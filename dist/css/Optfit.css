@@ -6858,7 +6858,7 @@ button:focus {
   position: relative;
   padding: 12px 30px;
   margin: 0.3125rem 1px;
-  font-size: 0.74rem;
+  font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.42857;
   text-decoration: none;
@@ -10162,6 +10162,11 @@ textarea {
   font-size: 0.875rem;
   font-weight: 400; }
 
+.navbar-nav.navbar-brand img {
+  border-radius: 7px;
+  margin-right: 7px;
+  max-height: 50px; }
+
 .nav-tabs,
 .nav-pills {
   border: 0;
@@ -12922,7 +12927,7 @@ thead.thead-inverse th,
     font-size: 18px;
     position: relative;
     top: 4px;
-    width: 19px; }
+    width: 18px; }
 
 .card-testimonial .card-footer {
   margin-top: 0;
@@ -13406,7 +13411,7 @@ thead.thead-inverse th,
   display: block; }
 
 .section {
-  padding: 70px 0; }
+  padding: 40px 0; }
 
 .section-navbars {
   padding-bottom: 0; }
@@ -13445,7 +13450,7 @@ thead.thead-inverse th,
 .section-image .description,
 .section-image .card-plain .card-description,
 .section-image .card-plain .icon {
-  color: rgba(255, 255, 255, 0.76); }
+  color: rgba(255, 255, 255, 0.95); }
 
 .section-dark .card-plain [class*='text-'],
 .section-dark .card-plain ul li b,
