@@ -133,3 +133,15 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .page-header .title {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .page-header .title {
+        font-size: 2em;
+    }
+}

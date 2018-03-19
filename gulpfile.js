@@ -34,4 +34,4 @@ gulp.task('open', function() {
 });
 
 gulp.task('open-app', ['open', 'watch']);
-gulp.task('prod', ['compress', 'compile-scss']);
+gulp.task('prod', ['compile-scss']);

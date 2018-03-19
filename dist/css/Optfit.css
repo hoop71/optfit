@@ -15106,6 +15106,14 @@ select.selectpicker {
 .card-form-horizontal .form-group {
   margin-bottom: 0; }
 
+@media screen and (max-width: 991px) {
+  .page-header .title {
+    font-size: 2.5em; } }
+
+@media screen and (max-width: 991px) {
+  .page-header .title {
+    font-size: 2em; } }
+
 footer {
   padding: 0.9375rem 0;
   text-align: center;
@@ -15536,8 +15544,8 @@ footer {
   margin-bottom: 0.75rem !important; }
 
 @media all and (max-width: 991px) {
-  [class*="navbar-expand-"] > .container,
-  [class*="navbar-expand-"] > .container-fluid {
+  [class*='navbar-expand-'] > .container,
+  [class*='navbar-expand-'] > .container-fluid {
     padding-left: 15px;
     padding-right: 15px; }
   .navbar .navbar-collapse .navbar-nav > li.button-container {
@@ -15575,7 +15583,7 @@ footer {
       position: absolute;
       background-color: #fff;
       display: block;
-      content: "";
+      content: '';
       z-index: 1; }
     .navbar-collapse .dropdown-toggle:after {
       position: absolute;
@@ -15591,7 +15599,7 @@ footer {
         margin: 15px; }
       .navbar-collapse .navbar-nav .nav-item:after {
         width: calc(100% - 30px);
-        content: "";
+        content: '';
         display: block;
         height: 1px;
         margin-left: 15px;
@@ -15657,7 +15665,7 @@ footer {
     top: 0;
     left: auto;
     right: 230px;
-    content: "";
+    content: '';
     z-index: 1029;
     overflow-x: hidden; }
   #navbar .navbar-collapse,
@@ -15673,6 +15681,11 @@ footer {
       margin-left: 0.1875px; } }
 
 @media screen and (max-width: 767px) {
+  .navbar.navbar-nav {
+    display: contents;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline; }
   .presentation-page .section-components .components-macbook {
     max-width: 350px !important;
     max-height: 250px !important;
@@ -15692,6 +15705,8 @@ footer {
     top: -2%; } }
 
 @media screen and (max-width: 991px) {
+  .navbar .navbar-brand {
+    display: inline-table; }
   .presentation-page .section-components .components-macbook {
     max-width: 850px !important;
     max-height: 480px !important;
