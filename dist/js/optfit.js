@@ -194,7 +194,7 @@ $(window).on('resize', function() {
 
 materialKit = {
     misc: {
-        navbar_menu_visible: 0,
+        navbar_menu_visible: 1,
         window_width: 0,
         transparent: true,
         colored_shadows: true,
