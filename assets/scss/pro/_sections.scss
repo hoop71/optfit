@@ -56,7 +56,25 @@
     @include radial-gradient(#232323,#585858);
 }
 
-.section-dark,
+@media (min-width: 930px) {
+    .section-image {
+        background-image: url('./../img/desk-team.jpg');
+    }
+}
+
+@media (min-width: 425px) {
+    .section-image {
+        background-image: url('./../img/tablet-team.jpg');
+    }
+}
+
+@media (max-width: 425px) {
+    .section-image {
+        background-image: url('./../img/mobile-team.jpg');
+    }
+}
+
+// style="background-image: url('./dist/img/desk-team.jpg')" .section-dark,
 .section-image {
     .title,
     .card-plain .card-title,

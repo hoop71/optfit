@@ -181,6 +181,12 @@
   }
 }
 
+@media (max-width: 360px) {
+  .navbar .navbar-brand {
+    font-size: 80%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .navbar.navbar-nav {
     display: contents;

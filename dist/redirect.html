@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="./icons/favicon-16x16.png" sizes="16x16">  
+    <link rel="icon" type="image/png" href="./icons/favicon-32x32.png" sizes="32x32">  
+    <link rel="icon" type="image/png" href="./icons/favicon-96x96.png" sizes="96x96"> 
+    <title>
+       Optfit | Machine Learning at Scale
+    </title>
+    <!-- Fonts and icons  -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <!-- Style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!-- FAA -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.1.0/font-awesome-animation.min.css" />
+    <link rel="stylesheet" href="./css/Optfit.css">
+</head>
+
+<body class="login-page ">
+    <div class="page-header header-filter" style="background-image: url(./img/redirect.jpeg); background-size: cover; background-position: top center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 ml-auto mr-auto">
+                    <div class="card card-signup">
+                        <form class="form" method="" action="">
+                            <div id='redirect-header' class="card-header card-header-primary text-center">
+                                <h4 class="card-title">Your submission has been sent!</h4>
+                                <div class="social-line">                                    
+                                </div>
+                            </div>
+                            <div class="card-body text-center">                
+                              <div>
+                                <h2>
+                                    <i class="material-icons align-middle">thumb_up</i>
+                                </h2>                                
+                              </div>
+                              <h4> Returning to <a href="../index.html">Optfit.xyz</a> in <strong><span id="timer">5</span></strong></h4>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <!--   Core JS Files   -->
+    <script src="./js/core/jquery.min.js"></script>
+    <script src="./js/core/popper.min.js"></script>
+    <script src="./js/bootstrap-material-design.js"></script>
+    <!-- OptfitCore initialisations of plugins and Material Design Library -->
+    <script src="./js/optfit.js"></script>
+    
+</body>
+<!-- redirect script -->
+<script type="text/javascript">
+    var timeLeft = 5;
+    var redirectTimer = setInterval(function(){
+    var timer = timeLeft
+    timeLeft--;
+    document.getElementById("timer").innerHTML = timeLeft
+    if(timeLeft <= 0)
+        location.href = "../index.html";
+    },1000);
+</script>
+</html>

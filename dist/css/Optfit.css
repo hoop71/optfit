@@ -13436,33 +13436,35 @@ thead.thead-inverse th,
   /* W3C */
   background-size: 550% 450%; }
 
-.section-dark .title,
-.section-dark .card-plain .card-title,
-.section-dark .card-plain .icon i,
+@media (min-width: 930px) {
+  .section-image {
+    background-image: url("./../img/desk-team.jpg"); } }
+
+@media (min-width: 425px) {
+  .section-image {
+    background-image: url("./../img/tablet-team.jpg"); } }
+
+@media (max-width: 425px) {
+  .section-image {
+    background-image: url("./../img/mobile-team.jpg"); } }
+
 .section-image .title,
 .section-image .card-plain .card-title,
 .section-image .card-plain .icon i {
   color: #fff; }
 
-.section-dark .description,
-.section-dark .card-plain .card-description,
-.section-dark .card-plain .icon,
 .section-image .description,
 .section-image .card-plain .card-description,
 .section-image .card-plain .icon {
   color: rgba(255, 255, 255, 0.95); }
 
-.section-dark .card-plain [class*='text-'],
-.section-dark .card-plain ul li b,
 .section-image .card-plain [class*='text-'],
 .section-image .card-plain ul li b {
   color: #fff; }
 
-.section-dark .card-plain .card-category,
 .section-image .card-plain .card-category {
   color: rgba(255, 255, 255, 0.5); }
 
-.section-dark .card .card-image .colored-shadow,
 .section-image .card .card-image .colored-shadow {
   top: 0px; }
 
@@ -15018,6 +15020,9 @@ select.selectpicker {
     -webkit-box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
             box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
 
+#redirect-header {
+  background: #72cff4; }
+
 .header-filter {
   position: relative; }
   .header-filter:before, .header-filter:after {
@@ -15679,6 +15684,10 @@ footer {
             align-items: center; }
     .navbar .navbar-nav .button-container {
       margin-left: 0.1875px; } }
+
+@media (max-width: 360px) {
+  .navbar .navbar-brand {
+    font-size: 80%; } }
 
 @media screen and (max-width: 767px) {
   .navbar.navbar-nav {
