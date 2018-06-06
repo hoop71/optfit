@@ -16,6 +16,7 @@ Later options could include HTML, CSS and JS minifi
 
 <h2> Environments </h2>
 <p> All are hosted with firebase </p>
+<p> Firebase CLI: https://firebase.google.com/docs/cli/ <p>
 <h3> optfitxyz default </h3>
 <p> Push here for live production </p>
 <h3> optfitxyz-dev </h3>
